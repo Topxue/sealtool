@@ -1,0 +1,425 @@
+.container {
+  width: 71rem;
+  margin: 10px auto;
+  height: 32.5rem;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.06),
+    0 0 0 0.0625rem rgba(0, 0, 0, 0.04);
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-left: 3.75rem;
+  color: #4d4d4d;
+}
+
+.default-style {
+  display: none;
+}
+
+.sealeffectx {
+  display: none;
+}
+
+#imgFile {
+  height: 62%;
+  position: absolute;
+  top: 12%;
+  width: 57%;
+  opacity: 0;
+}
+#changeImg {
+  height: 62%;
+  position: absolute;
+  top: 12%;
+  width: 65px;
+  opacity: 0;
+  right: -4px;
+}
+
+.container .title {
+  color: #4d4d4d;
+  line-height: 3.75rem;
+}
+
+.container .upload {
+  width: 67rem;
+  height: 26.25rem;
+  background: #f6f8fd;
+  border-radius: 0.1875rem;
+  opacity: 0.6;
+  border: 0.0625rem dotted rgba(0, 0, 0, 0.3);
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload img {
+  margin: 7.1875rem 0 0.5625rem;
+}
+
+.upload .upload-trip {
+  color: #4d4d4d;
+  margin-bottom: 4.8125rem;
+}
+
+.upload .sealImg-tip {
+  color: #999;
+  line-height: 1.875rem;
+  margin-top: 5rem;
+}
+
+/* 印章操作容器 */
+
+.flex-conatiner {
+  display: flex;
+}
+
+.img-container {
+  width: 26.25rem;
+  height: 26.25rem;
+  position: relative;
+  margin-top: 25px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.replace {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+  line-height: 1.75rem;
+  width: 3.625rem;
+  background: #fff;
+  border-radius: 0.1875rem;
+  color: #5a676d;
+  font-size: 0.75rem;
+  cursor: pointer;
+  width: 60px;
+  border: none;
+  outline: none;
+}
+.replace img {
+  vertical-align: sub;
+  width: 15px;
+  height: 15px;
+}
+
+.bottom-w {
+  position: absolute;
+  bottom: -29px;
+  left: 123px;
+}
+
+.bottom-w,
+.bottom-h {
+  width: 37%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: #999;
+}
+
+.bottom-w > span,
+.bottom-h > span {
+  display: inline-block;
+  width: calc(62% - 0.0625rem);
+  height: 0;
+  border-top: 1px solid #eee;
+}
+
+.bottom-h {
+  position: absolute;
+  right: -100px;
+  transform-style: preserve-3d;
+  transform: rotate(90deg);
+  top: 151px;
+  position: absolute;
+}
+
+/* 操作容器 */
+
+.ops-container {
+  margin: 21px 0 20px 65px;
+}
+
+.set-title {
+  color: #999;
+  font-size: 1rem;
+}
+
+.set-size {
+  width: 590px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5625rem 0 2.75rem;
+}
+
+.set-size-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.set-wight {
+  padding: 0 5px 0 5px;
+}
+
+.set-size-list input {
+  width: 8.125rem;
+  height: 1.7rem;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+/* press */
+
+.box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box .label {
+  margin-right: 20px;
+}
+
+.box span {
+  width: 40px;
+  line-height: 40px;
+}
+
+.bar {
+  width: 240px;
+  background: #e4e7ed;
+  height: 10px;
+  position: relative;
+  border-radius: 50px;
+}
+
+.bar p {
+  margin: 0;
+  height: 10px;
+  width: 0;
+  background: #409eff;
+  border-radius: 50px;
+}
+
+.bar i {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  /* left: 114px; */
+  top: -3px;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 2px solid #409eff;
+}
+
+.set-trans {
+  margin-left: 35px;
+}
+
+.set-trans button {
+  width: 25px;
+  height: 27px;
+  background: #f5f7fa;
+  border: 1px solid #eee;
+  outline: none;
+  cursor: pointer;
+}
+
+.set-trans .reduce {
+  border-radius: 0.25rem 0 0 0.25rem;
+  border-right: 0.0625rem solid #dcdfe6;
+  margin-right: -5px;
+}
+
+.set-trans .plus {
+  border-radius: 0 0.25rem 0.25rem 0;
+  border-left: 0.0625rem solid #dcdfe6;
+  margin-left: -5px;
+}
+
+.set-trans input {
+  width: 50px;
+  height: 23px;
+  outline: none;
+  border: 1px solid #eee;
+}
+
+.sign-color {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.select-color {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.color-list {
+  width: 5rem;
+  height: 2rem;
+  margin-right: 1rem;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-list img {
+  width: 18px;
+  padding-right: 3px;
+}
+
+.default {
+  background-color: rgb(61, 59, 60);
+}
+
+.redcolor {
+  background-color: rgb(255, 0, 0);
+}
+
+.bluecolor {
+  background-color: rgb(0, 0, 255);
+}
+
+.blackcolor {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-container {
+  margin-top: 80px;
+}
+
+.btn-container button {
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  height: 32px;
+}
+
+.btn-container button:first-child {
+  width: 100px;
+  font-size: 12px;
+  background-color: #0975e1;
+  color: #fff;
+  border: 1px solid #0975e1;
+}
+
+.btn-container button:last-child {
+  width: 60px;
+  border: 1px solid #dcdfe6;
+  margin-left: 15px;
+}
+
+.panel {
+  position: absolute;
+  bottom: -61px;
+  color: #999999;
+  font-size: 15px;
+}
+
+/* 查看印章效果容器 */
+
+.handle-pic-bottom {
+  margin-top: 77px;
+  width: 71rem;
+  padding-left: 3.75rem;
+}
+
+.bottom-none {
+  text-align: center;
+  background: #fafbfe;
+  position: relative;
+  width: 75rem;
+  right: 122px;
+}
+
+.bottom-none img {
+  position: relative;
+  top: 60px;
+}
+
+.bottom-none p {
+  position: relative;
+  top: -53px;
+}
+
+/* 印章效果样式 */
+
+.sealeffectx {
+  margin-top: 120px;
+}
+
+.seale-list {
+  width: 11.25rem;
+  height: 14.0625rem;
+  background: #fff;
+  border: 0.0625rem solid #e4e4e4;
+  float: left;
+  margin-right: 2.5rem;
+  color: #4d4d4d;
+}
+
+.seale-list figure {
+  height: 10rem;
+  overflow: hidden;
+  line-height: 10rem;
+  margin: 0;
+  text-align: center;
+}
+
+.seale-list img {
+  max-height: 8.75rem;
+  vertical-align: middle;
+}
+
+.base-btn {
+  width: 100%;
+  height: 1.875rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 7px;
+  border-top: 1px solid #eee;
+}
+
+.base-btn a {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 30px;
+  color: #333;
+}
+
+.base-btn a:hover {
+  color: #409eff;
+}
+
+.base-btn a:first-child {
+  width: 6.6875rem;
+}
+
+.base-btn a:last-child {
+  width: 4.1875rem;
+  font-size: 0.75rem;
+  border-left: 1px solid #eee;
+  outline: none;
+  text-decoration-line: none;
+}
+.cropper-container {
+  height: 422px !important;
+}

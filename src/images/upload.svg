@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>上传图片</title>
+    <desc>Created with Sketch.</desc>
+    <g id="开放平台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-4" transform="translate(1.000000, 0.000000)" fill="#979797">
+            <path d="M27,0 L38,11 L38,28 L36,28 L36,11.8284271 L26.1715729,2 L2,2 L2,42 L28,41.999 L28,44 L0,44 L0,0 L27,0 Z" id="矩形" fill-rule="nonzero"></path>
+            <path d="M37,28 C43.0751322,28 48,32.9248678 48,39 C48,45.0751322 43.0751322,50 37,50 C30.9248678,50 26,45.0751322 26,39 C26,32.9248678 30.9248678,28 37,28 Z M37,30 C32.0294373,30 28,34.0294373 28,39 C28,43.9705627 32.0294373,48 37,48 C41.9705627,48 46,43.9705627 46,39 C46,34.0294373 41.9705627,30 37,30 Z" id="椭圆形" fill-rule="nonzero"></path>
+            <polygon id="矩形" points="40.5 37 38 37 38 45 36 45 36 37 33.5 37 37 32.5"></polygon>
+            <path d="M26,0 L28,2 L28,10 L36,10 L38,12 L26,12 L26,0 Z" id="形状结合"></path>
+        </g>
+        <polygon id="路径-4" fill="#979797" points="15 20.9411765 21.5 26.4033613 31.5 18 31.5 33 8 33 8 26.8235294"></polygon>
+        <circle id="椭圆形" fill="#979797" cx="10" cy="16" r="2"></circle>
+    </g>
+</svg>
